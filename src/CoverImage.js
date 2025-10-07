@@ -1,7 +1,7 @@
 
 import React from 'react';
 import './CoverImage.css';
-import coverPhoto from './anhphu1.jpg'; 
+import coverPhoto from './thiep.png'; 
 
 function CoverImage() {
   return (
