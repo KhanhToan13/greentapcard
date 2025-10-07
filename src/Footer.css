@@ -1,62 +1,68 @@
-/* src/Footer.css */
 .footer-container {
-  background-color: #2c2c2c; /* Màu nền xám đậm */
-  color: #ffffff; /* Màu chữ trắng */
-  padding: 60px 10%; /* Padding trên/dưới và trái/phải */
+  background-color: #f5f9f5;  
+  color: #1a472a;  
+  padding: 60px 10%;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .footer-content {
   display: flex;
-  justify-content: space-between; /* Dàn các cột ra xa nhau */
-  flex-wrap: wrap; /* Cho phép xuống dòng trên màn hình nhỏ */
-  gap: 40px; /* Khoảng cách giữa các cột */
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 40px;
   margin-bottom: 40px;
 }
 
 .footer-column {
-  flex: 1; /* Các cột chia sẻ không gian đều nhau */
-  min-width: 250px; /* Chiều rộng tối thiểu cho mỗi cột */
+  flex: 1;
+  min-width: 250px;
 }
 
 .footer-logo {
-  max-width: 150px; /* Giới hạn kích thước logo */
+  max-width: 150px;
   margin-bottom: 20px;
+  filter: drop-shadow(0 4px 6px rgba(0, 0, 0, 0.1));
 }
 
 .footer-column h3 {
   font-size: 18px;
   margin-bottom: 20px;
   text-transform: uppercase;
+  color: #2d5a27;
 }
 
 .footer-column p {
   line-height: 1.6;
-  color: #d1d1d1; /* Màu chữ mô tả nhạt hơn một chút */
+  color: #4a6d47;  
 }
 
-.footer-column ul {
-  list-style: none; /* Bỏ dấu chấm đầu dòng */
-  padding: 0;
-}
-
-.footer-column ul li {
+.policy-item {
   margin-bottom: 10px;
-}
-
-.footer-column ul li a {
-  color: #d1d1d1;
-  text-decoration: none; /* Bỏ gạch chân link */
-  transition: color 0.3s ease;
-}
-
-.footer-column ul li a:hover {
-  color: #ffffff; /* Đổi màu khi hover */
+  color: #4a6d47;  
+  line-height: 1.6;
 }
 
 .footer-copyright {
   text-align: center;
   padding-top: 20px;
-  border-top: 1px solid #444444; /* Đường kẻ ngăn cách */
+  border-top: 1px solid #dce9db;  
   font-size: 14px;
-  color: #aaaaaa;
+  color: #6b8e68;  
+}
+
+.policy-item:hover {
+  color: #2d5a27;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.social-link {
+  color: #2d5a27;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.social-link:hover {
+  color: #1a472a;
+  text-decoration: underline;
 }

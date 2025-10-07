@@ -1,7 +1,6 @@
-// src/Footer.js
 import React from 'react';
-import './Footer.css'; // Import CSS cho footer
-import logo from './assets/logo.jpg'; // Import logo
+import './Footer.css';
+import logo from './assets/logo.jpg';
 
 function Footer() {
   return (
@@ -20,18 +19,24 @@ function Footer() {
         <div className="footer-column">
           <h3>Liên hệ</h3>
           <p>Hotline: 1900 1000</p>
-          <p>Email: info@greentap.com</p>
+          <p>Facebook: <a 
+              href="https://www.facebook.com/profile.php?id=61581210366800" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="social-link"
+            >
+              GreenTap
+            </a>
+          </p>
           <p>Hỗ trợ 24/7</p>
         </div>
 
         {/* Cột 3: Chính sách */}
         <div className="footer-column">
           <h3>Chính sách</h3>
-          <ul>
-            <li><a href="#/">Đổi trả miễn phí</a></li>
-            <li><a href="#/">Bảo hành cây xanh</a></li>
-            <li><a href="#/">Hướng dẫn chăm sóc</a></li>
-          </ul>
+          <p className="policy-item">Đổi trả miễn phí</p>
+          <p className="policy-item">Bảo hành cây xanh</p>
+          <p className="policy-item">Hướng dẫn chăm sóc</p>
         </div>
       </div>
       <div className="footer-copyright">
