@@ -6,7 +6,7 @@ function Footer() {
   return (
     <footer className="footer-container">
       <div className="footer-content">
-        {/* Cột 1: Logo và mô tả */}
+
         <div className="footer-column">
           <img src={logo} alt="GreenTap Logo" className="footer-logo" />
           <p>
@@ -15,10 +15,9 @@ function Footer() {
           </p>
         </div>
 
-        {/* Cột 2: Liên hệ */}
         <div className="footer-column">
           <h3>Liên hệ</h3>
-          <p>Hotline: 1900 1000</p>
+          <p>Hotline: 0915563800</p>
           <p>Facebook: <a 
               href="https://www.facebook.com/profile.php?id=61581210366800" 
               target="_blank" 
@@ -31,7 +30,6 @@ function Footer() {
           <p>Hỗ trợ 24/7</p>
         </div>
 
-        {/* Cột 3: Chính sách */}
         <div className="footer-column">
           <h3>Chính sách</h3>
           <p className="policy-item">Đổi trả miễn phí</p>
@@ -40,7 +38,7 @@ function Footer() {
         </div>
       </div>
       <div className="footer-copyright">
-        <p>© 2024 GreenTap. Tất cả quyền được bảo lưu.</p>
+        <p>© 2025 GreenTap. Tất cả quyền được bảo lưu.</p>
       </div>
     </footer>
   );
